@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: com.adactin.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 31.745 sec <<< FAILURE!
+Then User verify the Homepage navigates to the search Hotel Page(| AAAA | 1111 |)  Time elapsed: 0.015 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[A]> but was:<[a]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.adactin.stepdefinition.StepDefinition.user_verify_the_Homepage_navigates_to_the_search_Hotel_Page(StepDefinition.java:76)
+	at ?.Then User verify the Homepage navigates to the search Hotel Page(src/test/java/com/adactin/feature/Adactin.feature:13)
+
+| AAAA | 1111 |  Time elapsed: 0.015 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[A]> but was:<[a]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.adactin.stepdefinition.StepDefinition.user_verify_the_Homepage_navigates_to_the_search_Hotel_Page(StepDefinition.java:76)
+	at ?.Then User verify the Homepage navigates to the search Hotel Page(src/test/java/com/adactin/feature/Adactin.feature:13)
+
+Then User verify the Homepage navigates to the search Hotel Page(| BBBB | 2222 |)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[A]> but was:<[a]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.adactin.stepdefinition.StepDefinition.user_verify_the_Homepage_navigates_to_the_search_Hotel_Page(StepDefinition.java:76)
+	at ?.Then User verify the Homepage navigates to the search Hotel Page(src/test/java/com/adactin/feature/Adactin.feature:13)
+
+| BBBB | 2222 |  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[A]> but was:<[a]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.adactin.stepdefinition.StepDefinition.user_verify_the_Homepage_navigates_to_the_search_Hotel_Page(StepDefinition.java:76)
+	at ?.Then User verify the Homepage navigates to the search Hotel Page(src/test/java/com/adactin/feature/Adactin.feature:13)
+
+Then User verify the Homepage navigates to the search Hotel Page(| Bhuvanpupathy | Adactin@21 |)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[A]> but was:<[a]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.adactin.stepdefinition.StepDefinition.user_verify_the_Homepage_navigates_to_the_search_Hotel_Page(StepDefinition.java:76)
+	at ?.Then User verify the Homepage navigates to the search Hotel Page(src/test/java/com/adactin/feature/Adactin.feature:13)
+
+| Bhuvanpupathy | Adactin@21 |  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[A]> but was:<[a]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.adactin.stepdefinition.StepDefinition.user_verify_the_Homepage_navigates_to_the_search_Hotel_Page(StepDefinition.java:76)
+	at ?.Then User verify the Homepage navigates to the search Hotel Page(src/test/java/com/adactin/feature/Adactin.feature:13)
+
